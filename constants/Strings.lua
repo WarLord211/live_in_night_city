@@ -1144,88 +1144,88 @@ local Strings = {
         }
     },
     ["jp-jp"] = { -- Japanese
-        thirst = "Thirst",
-        hunger = "Hunger",
-        fatigue = "Fatigue",
+        thirst = "脱水度",
+        hunger = "空腹度",
+        fatigue = "疲労度",
         step = {
-            thirst = {"You are hydrated, ", "Low Dehydration, ", "Dehydration, ", "Severe Dehydration, "},
-            hunger = {"You are fed, ", "Low Undernourishment, ", "Undernourishment, ", "Severe Undernourishment, "},
-            fatigue = {"You are rested, ", "Low Exhaustion, ", "Exhaustion, ", "Severe Exhaustion, "}
+            thirst = {"喉が潤っている, ", "喉が渇いた, ", "水分が必要, ", "脱水状態, "},
+            hunger = {"満腹, ", "空腹, ", "食事が必要, ", "栄養失調, "},
+            fatigue = {"元気, ", "疲労感, ", "休息が必要, ", "疲労困憊, "}
         },
         settings = {
             category = {
-                game = "Game Settings",
-                thirst = "Thirst Settings",
-                hunger = "Hunger Settings",
-                fatigue = "Fatigue Settings",
-                display = "Display Settings"
+                game = "ゲーム設定",
+                thirst = "脱水度設定",
+                hunger = "空腹度設定",
+                fatigue = "疲労度設定",
+                display = "表示設定"
             },
             options = {
                 game = {
                     gamepad = {
-                        label = "Gamepad",
-                        description = "Enable/Disable Gamepad Support (Left D-pad)"
+                        label = "ゲームパッド",
+                        description = "ゲームパッドサポート (左十字キー)"
                     },
                     difficulty = {
-                        label = "Difficulty",
-                        description = "Defines the amount of debuffs applied when your needs are low.",
+                        label = "難易度",
+                        description = "食事や休息が十分でない時のデバフ量を設定します。",
                         mode = {
-                            [1] = "Easy",
-                            [2] = "Normal",
-                            [3] = "Hard"
+                            [1] = "イージー",
+                            [2] = "ノーマル",
+                            [3] = "ハード"
                         }
                     }
                 },
                 thirst = {
                     dayPool = {
-                        label = "Thirst reserve (in-game days)",
-                        description = "Sets thirst reserve in number of game days."
+                        label = "脱水度キープ時間（ゲーム内日数）",
+                        description = "脱水度が維持される時間をゲーム日数で設定します。"
                     },
                     regenMultiplier = {
-                        label = "Thirst regeneration multiplier",
-                        description = "Sets the multiplier on all regenerations applied to thirst."
+                        label = "脱水度回復倍率",
+                        description = "脱水度を回復させる際の倍率を設定します。"
                     },
                     costMultiplier = {
-                        label = "Thirst cost multiplier",
-                        description = "Sets the multiplier on all costs applied to thirst."
+                        label = "脱水コスト倍率",
+                        description = "脱水度にかかるコストの倍率を設定します。"
                     }
                 },
                 hunger = {
                     dayPool = {
-                        label = "Hunger reserve (in-game days)",
-                        description = "Sets hunger reserve in number of game days."
+                        label = "空腹度キープ時間（ゲーム内日数）",
+                        description = "空腹度が維持される時間をゲーム日数で設定します。"
                     },
                     regenMultiplier = {
-                        label = "Hunger regeneration multiplier",
-                        description = "Sets the multiplier on all regenerations applied to hunger."
+                        label = "空腹度回復倍率",
+                        description = "空腹度を回復させる際の倍率を設定します。"
                     },
                     costMultiplier = {
-                        label = "Hunger cost multiplier",
-                        description = "Sets the multiplier on all costs applied to hunger."
+                        label = "空腹度コスト倍率",
+                        description = "空腹度にかかるコストの倍率を設定します。"
                     }
                 },
                 fatigue = {
                     dayPool = {
-                        label = "Fatigue reserve (in-game days)",
-                        description = "Sets fatigue reserve in number of game days."
+                        label = "疲労度キープ時間（ゲーム内日数）",
+                        description = "疲労度が維持される時間をゲーム日数で設定します。"
                     },
                     regenMultiplier = {
-                        label = "Fatigue regeneration multiplier",
-                        description = "Sets the multiplier on all regenerations applied to fatigue."
+                        label = "疲労度回復倍率",
+                        description = "疲労度を回復させる際の倍率を設定します。"
                     },
                     costMultiplier = {
-                        label = "Fatigue cost multiplier",
-                        description = "Sets the multiplier on all costs applied to fatigue."
+                        label = "疲労度コスト倍率",
+                        description = "疲労度にかかるコストの倍率を設定します。"
                     }
                 },
                 display = {
                     notif = {
-                        label = "Notifications",
-                        description = "Enable/Disable the display of automatic needs level notifications."
+                        label = "自動通知",
+                        description = "自動通知の表示を設定します。"
                     },
                     warning = {
-                        label = "Status warning",
-                        description = "Enable/Disable display of detailed status warning during notifications."
+                        label = "詳細な警告",
+                        description = "通知時の詳細な警告表示を設定します。"
                     }
                 }
             }
