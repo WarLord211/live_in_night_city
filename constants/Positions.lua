@@ -1130,7 +1130,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1,
 		zSlack = 1.5
 	},
-	judybalconyStand = {
+	judybalconStand = {
 		x = -911.6,
 		y = 1874.2,
 		z = 42.3,
@@ -1139,116 +1139,140 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		zSlack = 1.5
 	},
 	--MOD V's Edgerunners Mansion - Apartment - https://www.nexusmods.com/cyberpunk2077/mods/5437
+	vembankh10Couch = {
+		x = -1418.6,
+		y = 1267.3,
+		z = 23.0,
+		xSlack = 2.1,
+		ySlack = 1.4,
+		zSlack = 1.5
+	},
 	vemguitarCouch = {
-		x = -1351.2,
+		x = -1351.3,
 		y = 1210.4,
-		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		z = 115.7,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemvrCouch = {
 		x = -1339.0,
 		y = 1210.4,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemtvCouch = {
-		x = -1341.4,
-		y = 1202.2,
+		x = -1340.4,
+		y = 1202.0,
 		z = 114.8,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemupperCouch = {
 		x = -1350.6,
 		y = 1205.4,
 		z = 118.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
-	vemsackCouch = {
+	vembeanCouch = {
 		x = -1336.2,
 		y = 1206.7,
 		z = 118.8,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemshowerCouch = {
 		x = -1346.2,
 		y = 1212.5,
 		z = 119.0,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
-	vemsackoutCouch = {
+	vembeanoutCouch = {
 		x = -1352.3,
 		y = 1221.1,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vembankoutCouch = {
 		x = -1333.1,
 		y = 1207.5,
 		z = 115.0,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
+		zSlack = 1.5
+	},
+	vembankavCouch = {
+		x = -1316.2,
+		y = 1237.6,
+		z = 111.1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vembankcornerCouch = {
 		x = -1328.4,
 		y = 1188.9,
 		z = 115.0,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vempoolCouch = {
 		x = -1310.1,
 		y = 1219.3,
 		z = 111.1,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
+		zSlack = 1.5
+	},
+	vemavStand = {
+		x = -1332.4,
+		y = 1221.6,
+		z = 114.9,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemh10nStand = {
 		x = -1359.1,
 		y = 1199.2,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemh10eStand = {
 		x = -1355.5,
 		y = 1217.1,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vempoolwStand = {
 		x = -1330.3,
 		y = 1214.2,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vempoolnStand = {
 		x = -1330.5,
 		y = 1199.1,
 		z = 114.9,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemBed = {
@@ -1271,16 +1295,16 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -1337.5,
 		y = 1192.3,
 		z = 114.7,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemkitchenCafe = {
 		x = -1335.1,
 		y = 1188.9,
 		z = 115.0,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 1.8,
+		ySlack = 1.2,
 		zSlack = 1.5
 	},
 	--MOD Lizzy's Bar Enhanced - https://www.nexusmods.com/cyberpunk2077/mods/5619
@@ -1288,8 +1312,8 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -1178.4,
 		y = 1585.5,
 		z = 26.9,
-		xSlack = 3,
-		ySlack = 3,
+		xSlack = 30,
+		ySlack = 30,
 		zSlack = 1.5
 	},
 	lbeShower = {
@@ -1298,6 +1322,64 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		z = 26.9,
 		xSlack = 2,
 		ySlack = 2.5,
+		zSlack = 1.5
+	},
+	--MOD Dewdrop Inn Enhanced - https://www.nexusmods.com/cyberpunk2077/mods/6089
+	dieShower = {
+		x = -571.3,
+		y = -816.9,
+		z = 8.2,
+		xSlack = 2.2,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	dieBed = {
+		x = -573.8,
+		y = -811.5,
+		z = 8.2,
+		xSlack = 3.2,
+		ySlack = 2.5,
+		zSlack = 1.5
+	},
+	--MOD Pet The Cat - https://www.nexusmods.com/cyberpunk2077/mods/6198
+	ptcnibbles1Stroke = {
+		x = -1384.3,
+		y = 1273.8,
+		z = 123.0,
+		xSlack = 0.4,
+		ySlack = 0.4,
+		zSlack = 1.5
+	},
+	ptcnibbles2Stroke = {
+		x = -1380.0,
+		y = 1278.8,
+		z = 123.2,
+		xSlack = 0.4,
+		ySlack = 0.4,
+		zSlack = 1.5
+	},
+	ptcnibbles3Stroke = {
+		x = -1377.5,
+		y = 1269.3,
+		z = 122.6,
+		xSlack = 0.4,
+		ySlack = 0.4,
+		zSlack = 1.5
+	},
+	ptcnibbles4Stroke = {
+		x = -1386.2,
+		y = 1273.6,
+		z = 123.0,
+		xSlack = 0.4,
+		ySlack = 0.4,
+		zSlack = 1.5
+	},
+	ptcnibbles5Stroke = {
+		x = -1380.0,
+		y = 1274.1,
+		z = 123.0,
+		xSlack = 0.4,
+		ySlack = 0.4,
 		zSlack = 1.5
 	},
 	--MOD Night City Interactions - Watson Drinks and Edgerunners locales - https://www.nexusmods.com/cyberpunk2077/mods/5519
@@ -1337,6 +1419,46 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -1171.3,
 		y = 2008.8,
 		z = 7.8,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	nciredmarkedBar = {
+		x = -673.5,
+		y = 931.1,
+		z = 11.4,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncijigjigBar = {
+		x = -623.4,
+		y = 877.0,
+		z = 19.9,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncixiongmaoBar = {
+		x = -483.4,
+		y = 578.1,
+		z = 31.3,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncileleparkBar = {
+		x = -247.2,
+		y = -62.1,
+		z = 0.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	nciniwakiBar = {
+		x = -108.4,
+		y = 216.8,
+		z = 14.7,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1381,7 +1503,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1,
 		zSlack = 1.5
 	},
-	ncijappagodaCouch = {
+	ncijappagodCouch = {
 		x = -886.6,
 		y = 894.3,
 		z = 22.4,
@@ -1436,6 +1558,47 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
+	},
+	-- Dance
+	dancebeachAct = {
+		x = -2418.2,
+		y = -1115.5,
+		z = 1.7,
+		xSlack = 7,
+		ySlack = 7,
+		zSlack = 3.5
+	},
+	dancetotentanzAct = {
+		x = -1723.3,
+		y = 2204.2,
+		z = 87.2,
+		xSlack = 12,
+		ySlack = 12,
+		zSlack = 3.5
+	},
+	danceriotAct = {
+		x = -1637.8,
+		y = 1022.8,
+		z = 24.8,
+		xSlack = 10,
+		ySlack = 10,
+		zSlack = 3.5
+	},
+	danceriotAct = {
+		x = -1932.2,
+		y = -42.3,
+		z = -1.5,
+		xSlack = 15,
+		ySlack = 15,
+		zSlack = 3.5
+	},
+	danceempathyAct = {
+		x = -1632.0,
+		y = 386.1,
+		z = 7.6,
+		xSlack = 15,
+		ySlack = 15,
+		zSlack = 3.5
 	},
 	-- partner home coordiates
 	judyBed = {
@@ -1560,7 +1723,3 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 	}
 }
 return Positions
---[[
-
-
-]]
