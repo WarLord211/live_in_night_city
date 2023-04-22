@@ -175,6 +175,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
+	ripperDowntown = {
+		x = -2414.4,
+		y = 391.8,
+		z = 11.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
 	-- quests
 	brokennoseBar = {
 		x = -1261.8,
