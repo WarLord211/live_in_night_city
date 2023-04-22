@@ -96,7 +96,7 @@ local Normal = {
     },
     fatigue = {
         totalMax = 100,
-        poolMax = 756,
+        poolMax = 108,
         actionCost = {
             alcohol = -36,
             move = 0.1,
