@@ -56,12 +56,12 @@ function Observers.init()
     gameUI.Observe(function(state)
         if state.isDefault and not state.isJohnny then
             Player.state.enable = true
-            Player.actionRegen.rest = false
+            Player.actionRegen.rest = state.isVehicle
             Player.actionRegen.shower = false
         else
             Player.state.enable = false
         end
-        Player.state.vehicule = state.isVehicule
+        Player.state.vehicle = state.isVehicle
         if state.isScene then Player:getScenePos() end
     end)
 end

@@ -687,6 +687,13 @@ local function initialize(event)
 			notifyObservers()
 		end)
 
+		Observe('hudCarController', 'OnMountingEvent', function()
+			--spdlog.error(('hudCarController::OnMountingEvent()'))
+
+			updateVehicle(true, false)
+			notifyObservers()
+		end)
+
 		Observe('hudCarController', 'OnUnmountingEvent', function()
 			--spdlog.error(('hudCarController::OnUnmountingEvent()'))
 
