@@ -25,8 +25,8 @@ local Hard = {
         step = {
             range = {
                 {min = -1, max = 1},
-                {min = 35, max = 65},
-                {min = 64, max = 100},
+                {min = 50, max = 75},
+                {min = 74, max = 100},
                 {min = 99, max = 101}
             },
             stats = {
@@ -76,8 +76,8 @@ local Hard = {
         step = {
             range = {
                 {min = -1, max = 1},
-                {min = 35, max = 65},
-                {min = 64, max = 100},
+                {min = 30, max = 60},
+                {min = 59, max = 100},
                 {min = 99, max = 101}
             },
             stats = {
@@ -101,10 +101,10 @@ local Hard = {
         poolMax = 108,
         actionCost = {
             alcohol = -36,
-            move = 0.2,
-            sprint = 2,
-            melee = 4,
-            jump = 3
+            move = 0.1,
+            sprint = 1,
+            melee = 3,
+            jump = 2
             --drug = 0, --wip
         },
         actionRegen = {
@@ -121,8 +121,8 @@ local Hard = {
         step = {
             range = {
                 {min = -1, max = 1},
-                {min = 35, max = 65},
-                {min = 64, max = 100},
+                {min = 50, max = 75},
+                {min = 74, max = 100},
                 {min = 99, max = 101}
             },
             stats = {

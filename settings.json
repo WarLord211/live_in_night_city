@@ -1,1 +1,1 @@
-{"thirst":{"dayPool":1,"regenMultiplier":1,"costMultiplier":3},"hunger":{"dayPool":1,"regenMultiplier":1,"costMultiplier":3},"game":{"difficulty":3,"gamepad":false},"display":{"warning":true,"notif":true},"fatigue":{"dayPool":1,"regenMultiplier":1,"costMultiplier":3}}
+{"hunger":{"costMultiplier":1.25,"dayPool":2,"regenMultiplier":1},"fatigue":{"costMultiplier":3,"dayPool":1,"regenMultiplier":1},"display":{"notif":true,"warning":true},"thirst":{"costMultiplier":1.5,"dayPool":1,"regenMultiplier":1},"game":{"gamepad":false,"difficulty":2}}
