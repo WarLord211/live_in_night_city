@@ -23,6 +23,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.2
     },
+	h10Outcouch1 = {
+		x = -1404.2,
+		y = 1275.1,
+		z = 123.1,
+		xSlack = 1.2,
+		ySlack = 0.3,
+		zSlack = 0.4
+    },
     northsideBed = {
 		x = -1503.0,
 		y = 2229.0,
@@ -1491,6 +1499,38 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -1648.6,
 		y = 1010.6,
 		z = 28.8,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncipincheBar = {
+		x = -1519.5,
+		y = -1106.4,
+		z = 9.1,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncidickBar = {
+		x = -815.3,
+		y = -84.4,
+		z = 7.6,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncichubbyBar = {
+		x = -1213.5,
+		y = -1169.7,
+		z = 33.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	ncicoyoteBar = {
+		x = -1265.0,
+		y = -997.3,
+		z = 12.4,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
