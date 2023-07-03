@@ -23,7 +23,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.2
     },
-	h10Outcouch1 = {
+	h10Out1Couch = {
 		x = -1404.2,
 		y = 1275.1,
 		z = 123.1,
@@ -103,7 +103,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 3.0,
 		zSlack = 1.5
     },
-    corpoplazaCouch = {	
+    corpoplazaCouch = {
 		x = -1601.7,
 		y = 356.4,
 		z = 48.6,
@@ -111,7 +111,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.2
     },
-    corpoplazaShower = {	
+    corpoplazaShower = {
 		x = -1622.4,
 		y = 353.0,
 		z = 49.3,
@@ -135,7 +135,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.3,
 		zSlack = 0.5
 	},
-	corpoplazaCafe = {	
+	corpoplazaCafe = {
 		x = -1608.8,
 		y = 350.2,
 		z = 49.4,
@@ -143,7 +143,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	glenBed = {			
+	glenBed = {
 		x = -1523.7,
 		y = -975.4,
 		z = 91.0,
@@ -199,6 +199,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
+	ripperCHill = {
+		x = -39.7,
+		y = -48.6,
+		z = 7.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
 	-- quests
 	brokennoseBar = {
 		x = -1261.8,
@@ -223,6 +231,22 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
+	},
+	lobo1Couch = {
+		x = - -1457.9,
+		y = -1035.6,
+		z = 9.3,
+		xSlack = 1,
+		ySlack = 2,
+		zSlack = 0.8
+	},
+	lobo2Couch = {
+		x = - -1457.0,
+		y = -1039.0,
+		z = 9.3,
+		xSlack = 1,
+		ySlack = 2,
+		zSlack = 0.8
 	},
 	vofficeCouch = {
 		x = -1407.7,
@@ -376,7 +400,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 2,
 		zSlack = 0.8
 	},
-	burygerBar = { 
+	burygerBar = {
 		x = -539.1,
 		y = -740.6,
 		z = 7.8,
@@ -495,7 +519,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		xSlack = 2.2,
 		ySlack = 2,
 		zSlack = 1.5
-	},	
+	},
 	panamplanStand = {
 		x = 1712.1,
 		y = -757.5,
@@ -728,7 +752,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1.3,
 		zSlack = 0.8
     },
-	embersBar = { 
+	embersBar = {
 		x = -1801.5,
 		y = -519.8,
 		z = 74.2,
@@ -992,6 +1016,94 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1,
 		zSlack = 1.5
 	},
+	 peralesrahmenBar = {
+		x = -650.0,
+		y = 934.3,
+		z = 9.4,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	peralesparkCouch = {
+		x = -1694.3,
+		y = -187.7,
+		z = 13.4,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	HanakovistaCouch = {
+		x = -605.1,
+		y = -201.6,
+		z = 16.1,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+    TakemuraVistaBed = {
+		x = -600.5,
+		y = -192.2,
+		z = 8.6,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+    SunsetgunCouch = {
+		x = 1661.6,
+		y = -790.6,
+		z = 49.8,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+    Sunsetgun2Couch = {
+		x = 1660.8,
+		y = -787.9,
+		z = 49.8,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+    SeaairBed = {
+		x = -2638.6,
+		y = -2451.8,
+		z = 35.0,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	PistisCouch = {
+		x = -2639.5,
+		y = -2451.1,
+		z = 35.0,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	SeaairCouch = {
+		x = -2647.6,
+		y = -2458.0,
+		z = 35.0,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	DogtagCouch = {
+		x = -2634.3,
+		y = -2469.8,
+		z = 35.0,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	lizwizCouch = {
+		x = -1200.0,
+		y = 1314.9,
+		z = 28.0,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
 	-- wait places
 	waitfingersCouch = {
 		x = -578.9,
@@ -1098,7 +1210,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1.3,
 		zSlack = 0.8
     },
-	mistyBar = { 
+	mistyBar = {
 		x = -1545.3,
 		y = 1195.9,
 		z = 15.8,
@@ -1160,6 +1272,15 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		z = 42.3,
 		xSlack = 1.6,
 		ySlack = 1,
+		zSlack = 1.5
+	},
+	--MOD Mission Encore
+	encoreCouch = {
+		x = -873.3,
+		y = -676.9,
+		z = 8.2,
+		xSlack = 2.1,
+		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	--MOD V's Edgerunners Mansion - Apartment - https://www.nexusmods.com/cyberpunk2077/mods/5437
@@ -1499,8 +1620,8 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -1648.6,
 		y = 1010.6,
 		z = 28.8,
-		xSlack = 1.6,
-		ySlack = 1,
+		xSlack = 2.6,
+		ySlack = 2,
 		zSlack = 1.5
 	},
 	ncipincheBar = {
@@ -1679,6 +1800,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		z = 42.3,
 		xSlack = 6.3,
 		ySlack = 2.4,
+		zSlack = 1.5
+	},
+	judy2Couch = {
+		x = -904.9,
+		y = 1860.2,
+		z = 42.3,
+		xSlack = 3.6,
+		ySlack = 1,
 		zSlack = 1.5
 	},
 	judyShower = {
