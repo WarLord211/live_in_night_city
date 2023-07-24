@@ -1,5 +1,13 @@
 local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("Items.XXXX", 1)
-    h10Bed = {
+    h08Bed = {
+		x = -723.6,
+		y = 763.7,
+		z = 136.2,
+		xSlack = 2.5,
+		ySlack = 2.0,
+		zSlack = 5.2
+    },
+	h10Bed = {
 		x = -1378.4,
 		y = 1273.0,
 		z = 123.1,
@@ -183,7 +191,7 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	ripperDowntown = {
+	ripperdowntownBed = {
 		x = -2414.4,
 		y = 391.8,
 		z = 11.8,
@@ -191,7 +199,31 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	ripperArroyo = {
+	ripperkabukiBed = {
+		x = -1039.4,
+		y = 1445.5,
+		z = 0.4,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	rippermarktBed = {
+		x = -1239.8,
+		y = 1939.6,
+		z = 8.0,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperwatsonBed = {
+		x =  -1685.9,
+		y = 2377.5,
+		z = 18.3,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperarroyoBed = {
 		x = -1069.5,
 		y = -1271.3,
 		z = 11.4,
@@ -199,10 +231,58 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	ripperCHill = {
+	ripperchillBed = {
 		x = -39.7,
 		y = -48.6,
 		z = 7.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperranchoBed = {
+		x = 586.4,
+		y = -2178.4,
+		z = 42.4,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperpacificaBed = {
+		x = -2605.4,
+		y = -2500.7,
+		z = 17.3,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperfingersBed = {
+		x = -577.7,
+		y = 792.7,
+		z = 24.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	rippercherryBed = {
+		x = -716.0,
+		y = 869.5,
+		z = 11.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperbadBed = {
+		x = 1812.1,
+		y = 2274.9,
+		z = 182.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperryderBed = {
+		x = -2358.2,
+		y = -927.0,
+		z = 12.2,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
@@ -363,6 +443,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 	afterlifeBar = {
 		x = -1442.6,
 		y = 1012.0,
+		z = 16.5,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	afterlife2Bar = {
+		x = -1448.0,
+		y = 1011.7,
 		z = 16.5,
 		xSlack = 1.6,
 		ySlack = 1,
@@ -832,6 +920,22 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1.3,
 		zSlack = 0.8
     },
+	monkfinalCouch = {
+		x = 431.0,
+		y = -2746.8,
+		z = 171.2,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	silvergraveCouch = {
+		x = -1844.7,
+		y = 3855.9,
+		z = 6.6,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
 	arroyoeatingBar = {
 		x = -1020.6,
 		y = -1562.3,
@@ -1104,6 +1208,86 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1,
 		zSlack = 1.5
 	},
+	RougedrunkBed = {
+		x = -1517.3,
+		y = 2195.6,
+		z = 22.2,
+		xSlack = 3.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	jingujiCouch = {
+		x = -1888.1,
+		y = 89.1,
+		z = 7.6,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	mistychair2Couch = {
+		x = -1540.0,
+		y = 1195.6,
+		z = 15.9,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	fighttalkCouch = {
+		x = -2364.0,
+		y = -2034.6,
+		z = 14.0,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	fightringCouch = {
+		x = -2363.0,
+		y = -2026.1,
+		z = 15.1,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	cinemacarCouch = {
+		x = -86.4,
+		y = 1953.7,
+		z = 100.6,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	kerrydrinkCouch = {
+		x = 134.6,
+		y = 1082.3,
+		z = 207.0,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	kerrysamuraiCouch = {
+		x = 116.1,
+		y = 1096.5,
+		z = 203.4,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    }, 
+	secretCouch = { --605185
+		x = -1185.4,
+		y = 2076.0,
+		z = 6.8,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	totentanzCouch = {
+		x = -1708.6,
+		y = 2207.3,
+		z = 90.1,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
 	-- wait places
 	waitfingersCouch = {
 		x = -578.9,
@@ -1201,6 +1385,22 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		ySlack = 1,
 		zSlack = 1.5
 	},
+	waitcaliStand = {
+		x = 766.5,
+		y = -2099.2,
+		z = 172.1,
+		xSlack = 2.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	waitfightCouch = {
+		x = -2284.8,
+		y = -2115.3,
+		z = 13.3,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
 	-- random places
 	h10coachCouch = {
 		x = -1431.3,
@@ -1270,6 +1470,14 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -911.6,
 		y = 1874.2,
 		z = 42.3,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	judycaliCouch = {
+		x = 764.3,
+		y = -2090.9,
+		z = 172.1,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1782,8 +1990,8 @@ local Positions = { --Game.LogPlayerPositionAndName() // Game.AddToInventory("It
 		x = -897.6,
 		y = 1856.9,
 		z = 42.3,
-		xSlack = 3,
-		ySlack = 3,
+		xSlack = 4,
+		ySlack = 4,
 		zSlack = 1.5
 	},
 	judyBar = {
