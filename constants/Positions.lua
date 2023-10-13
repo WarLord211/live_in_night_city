@@ -2,23 +2,23 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
     h08Bed = {
 		x = -723.6, y = 763.7, z = 136.2,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
 	h10Bed = {
-		x = -1378.4, y = 1273.0, z = 123.1,
+		x = -1378.4, y = 1273, z = 123.1,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
     h10Couch = {
-		x = -1378.3, y = 1267.0, z = 122.6,
+		x = -1378.3, y = 1267, z = 122.6,
 		xSlack = 1.2,
 		ySlack = 0.3,
 		zSlack = 0.4
     },
     h10Shower = {
-		x = -1383.1, y = 1278.0, z = 123.1,
+		x = -1383.1, y = 1278, z = 123.1,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.2
@@ -30,9 +30,9 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.4
     },
     northsideBed = {
-		x = -1503.0, y = 2229.0, z = 22.2,
+		x = -1503, y = 2229, z = 22.2,
 		xSlack = 2.75,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 0.2
     },
     northsideShower = {
@@ -44,7 +44,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
     japantownBed = {
 		x = -784.1, y = 987.5, z = 28.5,
 		xSlack = 2.75,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
     japantownCouch = {
@@ -80,23 +80,23 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	corpoplazaBed = {
 		x = -1613.7, y = 358.6, z = 49.1,
 		xSlack = 3.75,
-		ySlack = 3.0,
+		ySlack = 3,
 		zSlack = 1.5
     },
     corpoplazaCouch = {
 		x = -1601.7, y = 356.4, z = 48.6,
-		xSlack = 1.0,
+		xSlack = 1,
 		ySlack = 0.5,
 		zSlack = 0.2
     },
     corpoplazaShower = {
-		x = -1622.4, y = 353.0, z = 49.3,
+		x = -1622.4, y = 353, z = 49.3,
 		xSlack = 1.5,
 		ySlack = 1.5,
 		zSlack = 0.5
     },
 	corpoplazaBar = {
-		x = -1607.4, y = 352.0, z = 49.4,
+		x = -1607.4, y = 352, z = 49.4,
 		xSlack = 0.3,
 		ySlack = 0.5,
 		zSlack = 0.5
@@ -114,14 +114,14 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.5
     },
 	glenBed = {
-		x = -1523.7, y = -975.4, z = 91.0,
+		x = -1523.7, y = -975.4, z = 91,
 		xSlack = 2.75,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 0.4
     },
     glenCouch = {
 		x = -1520.7, y = -976.8, z = 86.7,
-		xSlack = 1.0,
+		xSlack = 1,
 		ySlack = 0.5,
 		zSlack = 0.3
     },
@@ -156,7 +156,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.5
     },
 	rippermarktBed = {
-		x = -1239.8, y = 1939.6, z = 8.0,
+		x = -1239.8, y = 1939.6, z = 8,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
@@ -198,7 +198,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.5
     },
 	rippercherryBed = {
-		x = -716.0, y = 869.5, z = 11.9,
+		x = -716, y = 869.5, z = 11.9,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
@@ -210,16 +210,16 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.5
     },
 	ripperryderBed = {
-		x = -2358.2, y = -927.0, z = 12.2,
+		x = -2358.2, y = -927, z = 12.2,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
     },
 -- quests
 	brokennoseBar = {
-		x = -1261.8, y = -1001.6, z = 12.0,
+		x = -1261.8, y = -1001.6, z = 12,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
 	friendscopCouch = {
@@ -229,7 +229,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
 	},
 	radionormadStand = {
-		x = -4073.0, y = -6639.9, z = 110.0,
+		x = -4073, y = -6639.9, z = 110,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -241,7 +241,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
 	},
 	lobo2Couch = {
-		x = - -1457.0, y = -1039.0, z = 9.3,
+		x = - -1457, y = -1039, z = 9.3,
 		xSlack = 1,
 		ySlack = 2,
 		zSlack = 0.8
@@ -259,19 +259,19 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
 	},
 	kirkCouch = {
-		x = -1267.6, y = -990.4, z = 16.0,
+		x = -1267.6, y = -990.4, z = 16,
 		xSlack = 1.3,
 		ySlack = 1.2,
 		zSlack = 0.8
 	},
 	allfoodsCouch = {
-		x = -867.0, y = 2212.1, z = 60.8,
+		x = -867, y = 2212.1, z = 60.8,
 		xSlack = 1.3,
 		ySlack = 1.2,
 		zSlack = 0.8
 	},
 	borderCouch = {
-		x = -2806.5, y = -5668.0, z = 101.1,
+		x = -2806.5, y = -5668, z = 101.1,
 		xSlack = 2,
 		ySlack = 2,
 		zSlack = 0.8
@@ -279,19 +279,19 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	h10foodBar = {
 		x = -1439.2, y = 1258.9, z = 23.1,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
 	h10barryCouch = {
-		x = -1387.0, y = 1301.8, z = 119.0,
+		x = -1387, y = 1301.8, z = 119,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 5.2
     },
 	h10fightAct = {
 		x = -1430.1, y = 1330.8, z = 119.4,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 3.2
     },
 	lizzyCouch = {
@@ -325,19 +325,19 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vicmedCouch = {
-		x = -1550.0, y = 1231.3, z = 11.5,
+		x = -1550, y = 1231.3, z = 11.5,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	afterlifeBar = {
-		x = -1442.6, y = 1012.0, z = 16.5,
+		x = -1442.6, y = 1012, z = 16.5,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	afterlife2Bar = {
-		x = -1448.0, y = 1011.7, z = 16.5,
+		x = -1448, y = 1011.7, z = 16.5,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -355,7 +355,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	konpekiCouch = {
-		x = -2206.4, y = 1787.7, z = 163.0,
+		x = -2206.4, y = 1787.7, z = 163,
 		xSlack = 2,
 		ySlack = 2,
 		zSlack = 0.8
@@ -379,7 +379,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	cloudscabin9Couch = {
-		x = -642.7, y = 777.0, z = 128.3,
+		x = -642.7, y = 777, z = 128.3,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -397,7 +397,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	fingerssitCouch = {
-		x = -562.0, y = 794.6, z = 24.9,
+		x = -562, y = 794.6, z = 24.9,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -445,7 +445,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	panamgunWork = {
-		x = 1640.0, y = -766.9, z = 49.9,
+		x = 1640, y = -766.9, z = 49.9,
 		xSlack = 2.2,
 		ySlack = 2,
 		zSlack = 1.5
@@ -475,13 +475,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	gunplantHack = {
-		x = -194.0, y = -2653.7, z = 29.5,
+		x = -194, y = -2653.7, z = 29.5,
 		xSlack = 1.5,
 		ySlack = 3.3,
 		zSlack = 0.8
     },
 	dronelinkHack = {
-		x = -538.0, y = -4976.9, z = 77.0,
+		x = -538, y = -4976.9, z = 77,
 		xSlack = 1.5,
 		ySlack = 3.3,
 		zSlack = 0.8
@@ -493,13 +493,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	hellmanfoundWork = {
-		x = -1868.0, y = -4271.7, z = 78.0,
+		x = -1868, y = -4271.7, z = 78,
 		xSlack = 2.2,
 		ySlack = 2,
 		zSlack = 1.5
 	},
 	hellmanbikeWork = {
-		x = -1842.6, y = -4300.4, z = 74.0,
+		x = -1842.6, y = -4300.4, z = 74,
 		xSlack = 2.2,
 		ySlack = 2,
 		zSlack = 1.5
@@ -565,13 +565,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	jackdoorAct = {
-		x = -1180.5, y = -998.4, z = 13.0,
+		x = -1180.5, y = -998.4, z = 13,
 		xSlack = 1.5,
 		ySlack = 2,
 		zSlack = 1.5
 	},
 	jackdoor2Act = {
-		x = -1177.4, y = -993.8, z = 13.0,
+		x = -1177.4, y = -993.8, z = 13,
 		xSlack = 1.5,
 		ySlack = 2,
 		zSlack = 1.5
@@ -583,7 +583,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	coyoteofpreyAct = {
-		x = -1245.5, y = -1005.0, z = 12.4,
+		x = -1245.5, y = -1005, z = 12.4,
 		xSlack = 2.2,
 		ySlack = 2,
 		zSlack = 1.5
@@ -591,7 +591,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	coyotemamaBar = {--alk
 		x = -1251.7, y = -991.3, z = 12.4,
 		xSlack = 2.5,
-		ySlack = 2.0,
+		ySlack = 2,
 		zSlack = 1.2
     },
 	coyoteofCouch = {
@@ -601,31 +601,31 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.2
     },
 	coyotepepeBar = {
-		x = -1260.6, y = -1000.7, z = 12.0,
+		x = -1260.6, y = -1000.7, z = 12,
 		xSlack = 2.5,
 		ySlack = 0.5,
 		zSlack = 1.2
     },
 	coyotevicBar = {
-		x = -1256.3, y = -999.9, z = 12.0,
+		x = -1256.3, y = -999.9, z = 12,
 		xSlack = 2.5,
 		ySlack = 1.2,
 		zSlack = 1.2
     },
 	coyotepadreStand = {
-		x = -1257.9, y = -990.7, z = 16.0,
+		x = -1257.9, y = -990.7, z = 16,
 		xSlack = 2.5,
 		ySlack = 1.2,
 		zSlack = 1.2
     },
 	garagejstairCouch = {
-		x = -1176.7, y = -999.0, z = 13.0,
+		x = -1176.7, y = -999, z = 13,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	bdstudioCouch = {
-		x = -159.0, y = 1177.3, z = 65.3,
+		x = -159, y = 1177.3, z = 65.3,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -643,19 +643,19 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	netcinemaCouch = {
-		x = -2313.8, y = -1968.0, z = 22.4,
+		x = -2313.8, y = -1968, z = 22.4,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	voodooHack = {
-		x = -1661.9, y = -1875.5, z = 55.0,
+		x = -1661.9, y = -1875.5, z = 55,
 		xSlack = 1.5,
 		ySlack = 3.3,
 		zSlack = 0.8
     },
 	atlantisCouch = {
-		x = -1662.4, y = -1868.8, z = 55.0,
+		x = -1662.4, y = -1868.8, z = 55,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -667,7 +667,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	churchchip2Couch = {
-		x = -1744.0, y = -1934.4, z = 61.5,
+		x = -1744, y = -1934.4, z = 61.5,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -685,13 +685,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	monknoakCouch = {
-		x = 46.0, y = 800.5, z = 132.0,
+		x = 46, y = 800.5, z = 132,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	monkfinalCouch = {
-		x = 431.0, y = -2746.8, z = 171.2,
+		x = 431, y = -2746.8, z = 171.2,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -727,13 +727,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	peralezCouch = {
-		x = -95.0, y = -122.8, z = 111.1,
+		x = -95, y = -122.8, z = 111.1,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	redwoodmarketBar = {--eating
-		x = -431.8, y = 670.9, z = 115.0,
+		x = -431.8, y = 670.9, z = 115,
 		xSlack = 2.5,
 		ySlack = 0.5,
 		zSlack = 1.2
@@ -823,13 +823,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	judylakecoffeeCouch = {
-		x = 1107.0, y = -3464.1, z = 179.6,
+		x = 1107, y = -3464.1, z = 179.6,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	clairetalkkdamCouch = {
-		x = 377.5, y = -2365.4, z = 182.0,
+		x = 377.5, y = -2365.4, z = 182,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -841,7 +841,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	 peralesrahmenBar = {
-		x = -650.0, y = 934.3, z = 9.4,
+		x = -650, y = 934.3, z = 9.4,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -877,31 +877,31 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
     SeaairBed = {
-		x = -2638.6, y = -2451.8, z = 35.0,
+		x = -2638.6, y = -2451.8, z = 35,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	PistisCouch = {
-		x = -2639.5, y = -2451.1, z = 35.0,
+		x = -2639.5, y = -2451.1, z = 35,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	SeaairCouch = {
-		x = -2647.6, y = -2458.0, z = 35.0,
+		x = -2647.6, y = -2458, z = 35,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	DogtagCouch = {
-		x = -2634.3, y = -2469.8, z = 35.0,
+		x = -2634.3, y = -2469.8, z = 35,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	lizwizCouch = {
-		x = -1200.0, y = 1314.9, z = 28.0,
+		x = -1200, y = 1314.9, z = 28,
 		xSlack = 3.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -919,19 +919,19 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	mistychair2Couch = {
-		x = -1540.0, y = 1195.6, z = 15.9,
+		x = -1540, y = 1195.6, z = 15.9,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	fighttalkCouch = {
-		x = -2364.0, y = -2034.6, z = 14.0,
+		x = -2364, y = -2034.6, z = 14,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
     },
 	fightringCouch = {
-		x = -2363.0, y = -2026.1, z = 15.1,
+		x = -2363, y = -2026.1, z = 15.1,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -943,7 +943,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	kerrydrinkCouch = {
-		x = 134.6, y = 1082.3, z = 207.0,
+		x = 134.6, y = 1082.3, z = 207,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -955,7 +955,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.8
     },
 	secretCouch = { --605185
-		x = -1185.4, y = 2076.0, z = 6.8,
+		x = -1185.4, y = 2076, z = 6.8,
 		xSlack = 1.5,
 		ySlack = 1.3,
 		zSlack = 0.8
@@ -1095,7 +1095,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	catnibblesStroke = {
-		x = -1398.5, y = 1253.1, z = 123.0,
+		x = -1398.5, y = 1253.1, z = 123,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1121,7 +1121,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	},
 --MOD V's Edgerunners Mansion - Apartment - https://www.nexusmods.com/cyberpunk2077/mods/5437
 	vembankh10Couch = {
-		x = -1418.6, y = 1267.3, z = 23.0,
+		x = -1418.6, y = 1267.3, z = 23,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
@@ -1133,13 +1133,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vemvrCouch = {
-		x = -1339.0, y = 1210.4, z = 114.9,
+		x = -1339, y = 1210.4, z = 114.9,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
 	},
 	vemtvCouch = {
-		x = -1340.4, y = 1202.0, z = 114.8,
+		x = -1340.4, y = 1202, z = 114.8,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
@@ -1157,7 +1157,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vemshowerCouch = {
-		x = -1346.2, y = 1212.5, z = 119.0,
+		x = -1346.2, y = 1212.5, z = 119,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
@@ -1169,7 +1169,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vembankoutCouch = {
-		x = -1333.1, y = 1207.5, z = 115.0,
+		x = -1333.1, y = 1207.5, z = 115,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
@@ -1181,7 +1181,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vembankcornerCouch = {
-		x = -1328.4, y = 1188.9, z = 115.0,
+		x = -1328.4, y = 1188.9, z = 115,
 		xSlack = 2.1,
 		ySlack = 1.4,
 		zSlack = 1.5
@@ -1223,13 +1223,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vemBed = {
-		x = -1337.6, y = 1210.3, z = 119.0,
+		x = -1337.6, y = 1210.3, z = 119,
 		xSlack = 3,
 		ySlack = 3,
 		zSlack = 1.5
 	},
 	vemShower = {
-		x = -1351.4, y = 1212.1, z = 119.0,
+		x = -1351.4, y = 1212.1, z = 119,
 		xSlack = 2,
 		ySlack = 2.5,
 		zSlack = 1.5
@@ -1241,7 +1241,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	vemkitchenCafe = {
-		x = -1335.1, y = 1188.9, z = 115.0,
+		x = -1335.1, y = 1188.9, z = 115,
 		xSlack = 1.8,
 		ySlack = 1.2,
 		zSlack = 1.5
@@ -1274,13 +1274,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	},
 --MOD Pet The Cat - https://www.nexusmods.com/cyberpunk2077/mods/6198
 	ptcnibbles1Stroke = {
-		x = -1384.3, y = 1273.8, z = 123.0,
+		x = -1384.3, y = 1273.8, z = 123,
 		xSlack = 0.4,
 		ySlack = 0.4,
 		zSlack = 1.5
 	},
 	ptcnibbles2Stroke = {
-		x = -1380.0, y = 1278.8, z = 123.2,
+		x = -1380, y = 1278.8, z = 123.2,
 		xSlack = 0.4,
 		ySlack = 0.4,
 		zSlack = 1.5
@@ -1292,13 +1292,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	ptcnibbles4Stroke = {
-		x = -1386.2, y = 1273.6, z = 123.0,
+		x = -1386.2, y = 1273.6, z = 123,
 		xSlack = 0.4,
 		ySlack = 0.4,
 		zSlack = 1.5
 	},
 	ptcnibbles5Stroke = {
-		x = -1380.0, y = 1274.1, z = 123.0,
+		x = -1380, y = 1274.1, z = 123,
 		xSlack = 0.4,
 		ySlack = 0.4,
 		zSlack = 1.5
@@ -1341,7 +1341,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	ncijigjigBar = {
-		x = -623.4, y = 877.0, z = 19.9,
+		x = -623.4, y = 877, z = 19.9,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1365,7 +1365,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	ncitomsdinerBar = {
-		x = -1505.0, y = 1154.1, z = 18.8,
+		x = -1505, y = 1154.1, z = 18.8,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1395,13 +1395,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	ncicoyoteBar = {
-		x = -1265.0, y = -997.3, z = 12.4,
+		x = -1265, y = -997.3, z = 12.4,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
 	},
 	ncirebeccaCouch = {
-		x = -644.2, y = 2571.8, z = 54.0,
+		x = -644.2, y = 2571.8, z = 54,
 		xSlack = 1.6,
 		ySlack = 1,
 		zSlack = 1.5
@@ -1486,7 +1486,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 3.5
 	},
 	danceempathyAct = {
-		x = -1632.0, y = 386.1, z = 7.6,
+		x = -1632, y = 386.1, z = 7.6,
 		xSlack = 15,
 		ySlack = 15,
 		zSlack = 3.5
@@ -1495,6 +1495,18 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		x = -1599.3, y = -2340.6, z = 43.2,
 		xSlack = 15,
 		ySlack = 15,
+		zSlack = 3.5
+	},
+	dancestacksAct = {
+		x = -2360.8, y = -2715.8, z = 22.4,
+		xSlack = 15,
+		ySlack = 15,
+		zSlack = 3.5
+	},
+	dancegrowlAct = {
+		x = -1878.5, y = -1845.1, z = 44.6,
+		xSlack = 6,
+		ySlack = 6,
 		zSlack = 3.5
 	},
 -- partner home coordiates
@@ -1535,13 +1547,13 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	randyBed = {
-		x = 1222.0, y = -507.3, z = 37.4,
+		x = 1222, y = -507.3, z = 37.4,
 		xSlack = 3.2,
 		ySlack = 2.5,
 		zSlack = 1.5
 	},
 	riverBed = {
-		x = 1238.2, y = -517.0, z = 37.4,
+		x = 1238.2, y = -517, z = 37.4,
 		xSlack = 3.2,
 		ySlack = 2.5,
 		zSlack = 1.5
@@ -1601,7 +1613,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	elcaptalkCouch = {
-		x = 409.6, y = -2351.3, z = 182.0,
+		x = 409.6, y = -2351.3, z = 182,
 		xSlack = 1.6,
 		ySlack = 2,
 		zSlack = 1.5
@@ -1620,7 +1632,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	startmetalAct = {
-		x = -1409.3, y = -1777.5,  z = 44.0,
+		x = -1409.3, y = -1777.5,  z = 44,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
@@ -1631,6 +1643,18 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		ySlack = 2,
 		zSlack = 1.5
 	},
+	pressmokeStand = {
+		x = -2218.4, y = -2565.9, z = 80.3,
+		xSlack = 2.2,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	presBed = {
+		x = -2232.4, y = -2569.4, z = 80.1,
+		xSlack = 3.2,
+		ySlack = 2.5,
+		zSlack = 1.5
+	},
 	dancepresAct = {
 		x = -2222.8, y = -2569.6,  z = 80.9,
 		xSlack = 2.2,
@@ -1638,7 +1662,7 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 1.5
 	},
 	prestableCouch = {
-		 x = -2226.4, y = -2564.7, z = 80.3,
+		x = -2226.4, y = -2564.7, z = 80.3,
 		xSlack = 5.5,
 		ySlack = 5.5,
 		zSlack = 1.5
@@ -1650,18 +1674,18 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		zSlack = 0.5
     },
 	dogercarCouch = {
-		x = -2133.8, y = -2303.0, z = 18.1,
+		x = -2133.8, y = -2303, z = 18.1,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	 waitbasketCouch = {
+	waitbasketCouch = {
 		x = -1807.1, y = -2724.8, z = 72.5,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
-    }, 
-	 waitaronCouch = {
+    },
+	waitaronCouch = {
 		x = -2200.2, y = -3081.6, z = 123.1,
 		xSlack = 0.5,
 		ySlack = 0.5,
@@ -1673,11 +1697,227 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		ySlack = 0.5,
 		zSlack = 0.5
     },
-	 blackthortonCouch = {
-		x = -1720.1, y = -2722.4, z = 84.0,
+	blackthortonCouch = {
+		x = -1720.1, y = -2722.4, z = 84,
 		xSlack = 1.6,
 		ySlack = 2,
 		zSlack = 1.5
-	}
+	},
+	barghestdrinkCouch = {
+		x = -1823, y = -2398.7, z = 39.8,
+		xSlack = 1.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	kurtvisionStand = {
+		x = -1831.2, y = -2301.8, z = 47.1,
+		xSlack = 2.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	escapegatterAct = {
+		x = -1354.7, y = -2476.5, z = 77,
+		xSlack = 2.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	hasanCouch = {
+		x = -2384.8, y = -2709.7, z = 69.2,
+		xSlack = 1.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	waitmothCouch = {
+		x = -2421.6, y = -2671.3, z = 27.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	talkmothCouch = {
+		x = -2431, y = -2666.4, z = 27.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	alexStand = {
+		x = -2425.2, y = -2672.8, z = 28,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	waitpaccoCouch = {
+		x = -1888.3, y = -2490.3, z = 27.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitreedvodooCouch = {
+		x = -1679.8, y = -2724.4, z = 103.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	vodoodoorAct = {
+		x = -1616.8, y = -2785.8, z = 98.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	vodoorelicCouch = {
+		x = -1622.2, y = -2801.4, z = 97.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitlinaCouch = {
+		x = -2221.9, y = -2636.5, z = 34.3,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	linabdCouch = {
+		x = -1719.3, y = -2413.5, z = 62.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	handsteaCouch = {
+		x = -1585.1, y = -2339.1, z = 57.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	stackmaloneCouch = {
+		x = -2381.4, y = -2659.7, z = 22.2,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	reedrelicCouch = {
+		x = -2432.9, y = -2669.7, z = 27.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	milbunkerStand = {
+		x = -2144.5, y = -2610.8, z = -18.6,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	waterdoorAct = {
+		x = -1807.1, y = -2325.7, z = 24.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waterdoor2Act = {
+		x = -1848.7, y = -2336.8, z = 24.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	sniperAct = {
+		x = -1864.9, y = -2315.9, z = 345.2,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	hansenpartyStand = {
+		x = -1870.9, y = -2304.1, z = 445.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	hansenparty2Stand = {
+		x = -1898.5, y = -2233.9, z = 440.6,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	hansenparty3Stand = {
+		x = -1871.1, y = -2256.7, z = 444.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	hansenpartysongStand = {
+		x = -1870, y = -2256.5, z = 444.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	hansenreedBar = {
+		x = -1843, y = -2293.7, z = 439.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	hansenpartyBar = {
+		x = -1884.4, y = -2242.1, z = 439.7,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	stackkillStand = {
+		x = -2142.9, y = -2769.9, z = 43,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	killerdumpsterAct = {
+		x = -2540.7, y = -2417.3, z = 16.9,
+		xSlack = 2.5,
+		ySlack = 2.5,
+		zSlack = 1.5
+    },
+	rinderCouch = {
+		x = -2546.3, y = -2415.2, z = 26.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	sportkidsBar = {
+		x = -1968.4, y = -3020.7, z = 82.5,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	russdumpsterAct = {
+		x = -2032.7, y = -2734.2, z = 37.3,
+		xSlack = 2.5,
+		ySlack = 2.5,
+		zSlack = 1.5
+    },
+	historyhideCouch = {
+		x = -2430.3, y = -2666.3, z = 9.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	meethideCouch = {
+		x = -2427.8, y = -2670.8, z = 13.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	songgrillCouch = {
+		x = -1725.5, y = -2686.4, z = 78.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	songgrill2Couch = {
+		x = -1732.1, y = -2677.5, z = 77.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	growlradioCouch = {
+		x = -1881.4, y = -1843.5, z = 44.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    }
 }
 return Positions
