@@ -215,6 +215,30 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		ySlack = 0.5,
 		zSlack = 0.5
     },
+	ripperfaridaBed = {
+		x = -1910.9, y = -2466.2, z = 24,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperstacksBed = {
+		x = -2403, y = -2652.2, z = 28.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperchurchBed = {
+		x = -1633.4, y = -2535.6, z = 39.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	ripperstadionBed = {
+		x = -1450.8, y = -2013.6, z = 71.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
 -- quests
 	brokennoseBar = {
 		x = -1261.8, y = -1001.6, z = 12,
@@ -966,6 +990,12 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		ySlack = 1.3,
 		zSlack = 0.8
     },
+	mistyendCouch = {
+		x = -1541.1, y = 1202, z = 56.9,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
 --wait places
 	waitfingersCouch = {
 		x = -578.9, y = 801.3, z = 24.9,
@@ -1041,6 +1071,12 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 	},
 	waitcaliStand = {
 		x = 766.5, y = -2099.2, z = 172.1,
+		xSlack = 2.6,
+		ySlack = 2,
+		zSlack = 1.5
+	},
+	waitrunnerStand = {
+		x = -1908.7, y = -2443, z = 50,
 		xSlack = 2.6,
 		ySlack = 2,
 		zSlack = 1.5
@@ -1509,6 +1545,12 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
 		ySlack = 6,
 		zSlack = 3.5
 	},
+	dancealexAct = {
+		x = -2433.5, y = -2665.4, z = 27.9,
+		xSlack = 6,
+		ySlack = 6,
+		zSlack = 3.5
+	},
 -- partner home coordiates
 	judyBed = {
 		x = -897.6, y = 1856.9, z = 42.3,
@@ -1915,6 +1957,186 @@ local Positions = {--GetPlayer():GetWorldPosition() print(Pos) // Game.AddToInve
     },
 	growlradioCouch = {
 		x = -1881.4, y = -1843.5, z = 44.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	hansenfrenchCouch = {
+		x = -1289, y = -1880.6, z = 62.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	songcratesAct = {
+		x = -1378.1, y = -2176.6, z = 68.8,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	neleCouch = {
+		x = -1353.6, y = -2097.4, z = 75.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	nelecarCouch = {
+		x = -1501.5, y = -2383.4, z = 40.2,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	lawerCouch = {
+		x = -1610.3, y = -2357.4, z = 50.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	kidCouch = {
+		x = -1994.5, y = -3000.3, z = 76.4,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waithhCouch = {
+		x = -1642, y = -2300.4, z = 39.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitcubaCouch = {
+		x = -2010.4, y = -2862.2, z = 100.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	cubaStand = {
+		x = -1976.7, y = -2854.8, z = 97.6,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	waitbennettCouch = {
+		x = -2291.2, y = 464, z = 7.3,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitbencarCouch = {
+		x = -2279.3, y = 484.8, z = 7.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitbsCouch = {
+		x = -1811.4, y = -2326.9, z = 39.8,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	cubacoffinStand = {
+		x = -1892.7, y = -2249, z = 439.8,
+		xSlack = 1.6,
+		ySlack = 1,
+		zSlack = 1.5
+	},
+	stevecoffeeCouch = {
+		x = -2486.8, y = -93.2, z = 8.3,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	songhoseAct = {
+		x = -3563.3, y = 313.7, z = 79,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	songoadoorAct = {
+		x = -3617.1, y = 352.8, z = 85.3,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	songoafanAct = {
+		x = -3611.5, y = 350.7, z = 84.9,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	songoafan2Act = {
+		x = -3604.8, y = 377.8, z = 85.1,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	songoadoor2Act = {
+		x = -3582.1, y = 245, z = 49,
+		xSlack = 3.5,
+		ySlack = 3.5,
+		zSlack = 2.5
+    },
+	songoatrainCouch = {
+		x = -3552.2, y = 116.9, z = 49.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	songoastartCouch = {
+		x = -4678.5, y = -289.6, z = 60.1,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	carwindowCouch = {
+		x = -1747.6, y = -2712.1, z = 83.6,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitnixCouch = {
+		x = -1545.2, y = 144.2, z = 12.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitmax1Stand = {
+		x = -2757.9, y = -2497.9, z = 29.9,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitmax2Stand = {
+		x = -2715.5, y = -2475.4, z = 30,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	waitmax3Stand = {
+		x = -2718.9, y = -2496.6, z = 19.2,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	reedsandCouch = {
+		x = -2914.7, y = -5660.2, z = 100.7,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	reedbasketCouch = {
+		x = -1796.6, y = -2717.3, z = 73,
+		xSlack = 0.5,
+		ySlack = 0.5,
+		zSlack = 0.5
+    },
+	heloAct = { 
+		x = -1460.2, y = -2399.1, z = 64.8,
+		xSlack = 1.5,
+		ySlack = 1.3,
+		zSlack = 0.8
+    },
+	johnnypierCouch = {
+		x = -2613, y = -177.6, z = 8.4,
 		xSlack = 0.5,
 		ySlack = 0.5,
 		zSlack = 0.5
